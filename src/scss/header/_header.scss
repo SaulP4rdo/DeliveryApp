@@ -1,5 +1,5 @@
-@use "base/mixins" as m;
-@use "base/variables" as v;
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
 .header {
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
   }
 
   &__logo {
-    width: 30rem;
+    width: 20rem;
     margin-bottom: 5rem;
     @include m.desktop {
       margin-bottom: 0;
