@@ -18,13 +18,13 @@
   <body>
     <header class="header contenedor">
       <div class="header__logo">
-        <img src="build/img/Rapi2.svg" alt="" />
+        <img src="build/img/rapi2.png" alt="" />
       </div>
       <nav class="navegacion">
-        <a href="#" class="navegacion__link">Iniciar Sesion</a>
-        <a href="#" class="navegacion__link">Crear Cuenta</a>
+        <!-- <a href="#" class="navegacion__link">Iniciar Sesion</a> -->
+        <!-- <a href="#" class="navegacion__link">Crear Cuenta</a> -->
         <a href="#" class="navegacion__link navegacion__link--registrar"
-          >Registrar Restaurant</a
+          >Administrar Cuenta</a
         >
       </nav>
     </header>
@@ -32,10 +32,24 @@
     <section class="contenedor formulario">
       <div class="formulario__grid">
         <div class="formulario__contenido">
-          <h2 class="formulario__heading">
-            Encuentra y pide comida de tu restaurante favorito
-          </h2>
-          <form action="" class="formulario__buscar">
+          <!-- <h2 class="formulario__heading">
+            ¡Ordena tu comida favorita con Rapi2!
+          </h2> -->
+
+          <div class="delivery-app-promo">
+            <h2>¡Ordena tu comida favorita con <span>Rapi2</span>!</h2>
+            <p>
+              Descubre una variedad de restaurantes, personaliza tu pedido y
+              recibe tu comida en minutos.
+            </p>
+            <p>
+              Con seguimiento en tiempo real, ofertas exclusivas y métodos de
+              pago seguros, comer bien nunca fue tan fácil. ¡Descarga la app y
+              disfruta sin moverte de casa!
+            </p>
+          </div>
+
+          <!-- <form action="" class="formulario__buscar">
             <div class="formulario__campo">
               <label for="restaurante" class="formulario__label"
                 >Restaurant</label
@@ -58,7 +72,7 @@
             </div>
 
             <input type="submit" class="formulario__submit" value="Buscar" />
-          </form>
+          </form> -->
         </div>
         <div class="formulario__imagen-contenedor">
           <img
@@ -219,10 +233,8 @@
               <img src="build/img/estrellas.png" alt="estrellas" />
               <h3 class="favorito__nombre">El Ballo</h3>
               <p class="favorito__descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam aspernatur aliquam dolore pariatur, optio dolorum quia
-                vel obcaecati modi repudiandae ab earum officia nam tenetur id
-                qui harum, quidem voluptatibus!
+                Déjate sorprender con el auténtico sabor a carne asada en sus
+                volcanes y tacos piratas.
               </p>
             </div>
           </div>
@@ -236,10 +248,8 @@
               <img src="build/img/estrellas.png" alt="estrellas" />
               <h3 class="favorito__nombre">Beat´s Pizza</h3>
               <p class="favorito__descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam aspernatur aliquam dolore pariatur, optio dolorum quia
-                vel obcaecati modi repudiandae ab earum officia nam tenetur id
-                qui harum, quidem voluptatibus!
+                Experimenta la combinación perfecta de sabores en sus pizzas
+                artesanales.
               </p>
             </div>
           </div>
@@ -253,10 +263,8 @@
               <img src="build/img/estrellas.png" alt="estrellas" />
               <h3 class="favorito__nombre">La Cabaña</h3>
               <p class="favorito__descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam aspernatur aliquam dolore pariatur, optio dolorum quia
-                vel obcaecati modi repudiandae ab earum officia nam tenetur id
-                qui harum, quidem voluptatibus!
+                Descubre la fusión perfecta de sabores en los boneless y
+                hamburguesas que la cabaña tiene para tí.
               </p>
             </div>
           </div>
@@ -270,10 +278,9 @@
               <img src="build/img/estrellas.png" alt="estrellas" />
               <h3 class="favorito__nombre">La Catrina</h3>
               <p class="favorito__descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam aspernatur aliquam dolore pariatur, optio dolorum quia
-                vel obcaecati modi repudiandae ab earum officia nam tenetur id
-                qui harum, quidem voluptatibus!
+                Disfruta de una experiencia gastronómica completa, desde buffet
+                hasta platos a la carta, acompañado de una amplia variedad de
+                bebidas.
               </p>
             </div>
           </div>
@@ -287,10 +294,8 @@
               <img src="build/img/estrellas.png" alt="estrellas" />
               <h3 class="favorito__nombre">La Palma</h3>
               <p class="favorito__descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam aspernatur aliquam dolore pariatur, optio dolorum quia
-                vel obcaecati modi repudiandae ab earum officia nam tenetur id
-                qui harum, quidem voluptatibus!
+                Tacos de guisos por la mañana y charolas individuales, los fines
+                de semana puedes deleitarte con sus deliciosas quesabirrias.
               </p>
             </div>
           </div>
@@ -304,10 +309,8 @@
               <img src="build/img/estrellas.png" alt="estrellas" />
               <h3 class="favorito__nombre">La patrona</h3>
               <p class="favorito__descripcion">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam aspernatur aliquam dolore pariatur, optio dolorum quia
-                vel obcaecati modi repudiandae ab earum officia nam tenetur id
-                qui harum, quidem voluptatibus!
+                Degusta la autenticidad en sus quesabirrias y guisos, un sabor
+                que te hará sentir en casa.
               </p>
             </div>
           </div>
@@ -316,24 +319,33 @@
     </main>
 
     <section class="repartidores">
-      <h2 class="repartidores__heading">Gana dinero con Rapi2</h2>
+      <h2 class="repartidores__heading">
+        Únete a Rapi2 y gana dinero como repartidor
+      </h2>
 
       <div class="repartidores__grid contenedor">
         <div class="repartidores__imagen">
-          <img src="build/img/repartidor.jpg" alt="imagen repartidor" />
+          <img
+            src="build/img/Imagen_repartidores.jpg"
+            alt="imagen repartidor"
+          />
         </div>
         <div class="repartidores__contenido">
           <p class="repartidores__texto">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
-            libero et doloremque quisquam tempora earum amet mollitia facilis
-            asperiores nemo maiores sint ut ab molestiae, hic, ducimus
-            consequuntur iusto porro?
+            ¡Forma parte de nuestro equipo de repartidores en Rapi2! Si buscas
+            un trabajo flexible que te permita ganar dinero mientras exploras la
+            ciudad, esta es tu oportunidad. Ofrecemos horarios adaptables,
+            ganancias competitivas por entrega, y la posibilidad de recibir
+            bonos por rendimiento. Solo necesitas un medio de transporte, un
+            smartphone, y una actitud positiva para brindar un excelente
+            servicio.
           </p>
           <p class="repartidores__texto">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
-            libero et doloremque quisquam tempora earum amet mollitia facilis
-            asperiores nemo maiores sint ut ab molestiae, hic, ducimus
-            consequuntur iusto porro?
+            Únete a Rapi2 y disfruta de un trabajo que se adapta a tu vida. Con
+            soporte 24/7 y una red de repartidores en constante crecimiento,
+            puedes empezar a ganar dinero de inmediato mientras haces que
+            nuestros clientes reciban sus pedidos a tiempo. ¡Inscríbete hoy y
+            comienza a hacer la diferencia!
           </p>
           <a href="#" class="repartidores__enlace">Contactanos</a>
         </div>
